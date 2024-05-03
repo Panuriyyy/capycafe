@@ -1,0 +1,16 @@
+
+.table th{
+    font-weight: bold;
+    padding: 5px;
+    background: #deaa5d;
+    color: white;
+    font-size: 20px;
+}
+
+.table tr:nth-child(odd){
+    background: #fcf0de;
+}
+
+.table tr:nth-child(even){
+    background: #fcdcac;
+}

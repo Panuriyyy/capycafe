@@ -1,0 +1,51 @@
+body {
+    text-align: center;
+    font-family: 'century gothic';
+    font-size: 28px;
+    color: #bea5d6;
+    margin: 0 auto;
+    width: 1280px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+h1 {
+    text-shadow: 4px 4px 2px white;
+}
+
+th {
+    background-color: #dcc4f2;
+}
+
+tr:nth-child(even){
+    background-color: #efe3fa;
+}
+
+tr:nth-child(odd){
+    background-color: #efebf3;
+}
+
+[data-tittle] {
+    position: relative;
+    cursor: help;
+}
+
+[data-tittle]::after {
+    content: attr(data-tittle);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    pointer-events: none;
+    background-color: white;
+    color:#bea5d6;
+    z-index: 99999;
+}
+
+[data-tittle]:hover::after {
+    opacity: 1;
+}
+
+h4 {
+    letter-spacing: 5px;
+    color: #9b86af;
+    font-family: 'Snell Roundhand, cursive';
+}

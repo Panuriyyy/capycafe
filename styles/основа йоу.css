@@ -1,0 +1,150 @@
+body {
+    cursor: url('capy-transformed.png'), auto;
+}
+
+.capy {
+    margin: 0 auto;
+    width: 1280px;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.2);
+    padding: 0;
+    padding: 5px 10px;
+    color: #9784db;
+    font-size: 36px;
+    font-family: 'century gothic';
+    border-radius: 10px;
+}
+
+button {
+    font-family: 'century gothic';
+    font-size: 40px;
+    color: #BBA9FF;
+    width: 400px;
+    height: 100px;
+    border-radius: 20px;
+    border: #e4b2fd;
+    box-shadow: 3px 3px 3px 0px #7b68c0;
+    cursor: url('capy-transformed.png'), auto;
+}
+
+.about {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.about-title {
+    position: relative;
+    top: 230px;
+    left: 80px;
+}
+
+.about-text {
+    width: 700px;
+}
+
+.pic {
+    padding: 7px;
+    margin: 10px 0 5px 5px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    margin: 0px 50px 0px 100px;
+}
+
+.ref {
+    display: flex;
+    width: 1100px;
+    justify-content: space-around;
+    margin: 25px 0px 0px 100px;
+    color: #c788c7;
+}
+
+.table {
+    text-align: center;
+}
+
+table {
+    border: 1px solid #BBA9FF;
+    border-collapse: collapse;
+}
+
+.table th {
+    font-weight: bold;
+    padding: 5px;
+    background: #a998e7;
+    color: white;
+    font-size: 36px;
+    border: none;
+}
+
+.table tr:nth-child(odd) {
+    background: #e9e3fd;
+    color: #BBA9FF;
+    border: none;
+}
+
+.table tr:nth-child(even) {
+    background: #ddd4fc;
+    color: #907bdb;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: #7b68c0;
+    cursor: url('capy-transformed.png'), auto;
+}
+
+.aaa {
+    letter-spacing: 5px;
+    font-size: 40px;
+    font-family: 'comic sans ms';
+}
+
+.lol {
+    border-radius: 10px;
+    border: 10px solid white;
+    box-shadow: 0px 0px 5px 5px;
+    object-fit: cover;
+    transition: 1s;
+}
+
+.lol:hover {
+    transform: scale(1.05);
+}
+
+.hihi {
+    transition: 1s;
+}
+
+.hihi:hover {
+    transform: scale(3);
+}
+
+h2 {
+    animation-duration: 1.5s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+        margin-left: 100%;
+    }
+    to {
+        margin-left: 0%;
+    }
+}
+
+.mur {
+    animation-duration: 1s;
+    animation-name: slidefrom;
+}
+
+@keyframes slidefrom {
+    from {
+        margin-top: 30%;
+    }
+    to {
+        margin-top: 0%;
+    }
+}
