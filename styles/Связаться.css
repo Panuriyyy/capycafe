@@ -10,12 +10,12 @@ select, option {
     height: 50px;
     font-size: large;
     font-family: 'century gothic';
-    color:#f1d7fa;
+    color:#ffb7a4;
 
 }
 
 button {
-    color:#f1d7fa;
+    color:#ffb7a4;
     font-size: 20px;
     font-family: 'century gothic';
     width: 150px;
@@ -26,3 +26,6 @@ table {
     text-align: left;
 }
 
+h2 {
+    line-height: 0.5;
+}
